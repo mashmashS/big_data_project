@@ -21,14 +21,8 @@ print(y_kmeans)
 print(kmeans.cluster_centers_)
 
 
-#plt.scatter(x[:,0],x[:,9],c=kmeans.labels_,cmap='rainbow')
-#plt.scatter(kmeans.cluster_centers_[:,1] ,kmeans.cluster_centers_[:,1],color='black',marker='x')
-
-display_factorial_planes(x, 2, pca, [(0,1)], illustrative_var = clusters, alpha = 0.8)
-plt.scatter(cluster_centers_[:, 0], cluster_centers_[:, 1],
-            marker='x', s=169, linewidths=3,
-            color='r', zorder=10)
-
+plt.scatter(x[:,0],x[:,1],c=kmeans.labels_,cmap='rainbow')
+plt.scatter(kmeans.cluster_centers_[:,0],kmeans.cluster_centers_[:,1],color='black',marker='x')
 
 # In[ ]:
 
