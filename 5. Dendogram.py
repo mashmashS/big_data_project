@@ -14,7 +14,7 @@ plt.figure(figsize=(10, 9))
 plt.title("comparison between article 1987_1 to article 1987_2")
 dendrogram(linked,orientation='top',labels=labelList,distance_sort='ascending',show_leaf_counts=True)
 plt.show()
-cluster = AgglomerativeClustering(n_clusters=5, affinity='euclidean', linkage='ward')
+cluster = AgglomerativeClustering(n_clusters=4, affinity='euclidean', linkage='ward')
 cluster.fit_predict(sd)
 plt.figure(figsize=(6, 5))
 plt.scatter(x[:,0], x[:,1], c=cluster.labels_, cmap='rainbow')
@@ -48,5 +48,5 @@ plt.scatter(x[:,0], x[:,1], c=cluster.labels_, cmap='rainbow')
 24       3       1
 
 
-array([0, 4, 0, 1, 0, 3, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1,
-       1, 2, 0], dtype=int64)
+array([1, 0, 1, 3, 1, 0, 1, 1, 1, 3, 1, 1, 3, 3, 1, 3, 3, 1, 3, 1, 3, 3,
+       3, 2, 1], dtype=int64)
