@@ -23,7 +23,7 @@ association_rules = apriori(records, min_support=0.002, min_confidence=0.0045, m
 association_results = list(association_rules)
 #print(len(association_rules))
 print('/n')
-print("length:",len(association_results[0]))
+print("length:",len(association_results))
 print(association_results[0])
 print(association_results[1])
 print(association_results[2])
