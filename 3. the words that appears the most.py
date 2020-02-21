@@ -23,15 +23,17 @@ while (max(y)>15):
 
        
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
+output:
+The index is: 5593 currant max number: 53 word: learning
+The index is: 6771 currant max number: 37 word: nodes
+The index is: 10255 currant max number: 27 word: symptoms
+The index is: 6699 currant max number: 22 word: netw
+The index is: 3722 currant max number: 20 word: fig
+The index is: 8462 currant max number: 20 word: reid
+The index is: 6718 currant max number: 18 word: neuromodulation
+The index is: 11292 currant max number: 18 word: wedge
+The index is: 7903 currant max number: 17 word: problem
+The index is: 388 currant max number: 16 word: analog
 
 
 
