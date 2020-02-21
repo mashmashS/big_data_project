@@ -32,8 +32,8 @@ plt.title('K-means Clustering with 2 dimensions')
 plt.show()
 
 
-# In[ ]:
-
+output:
+*Graph is in the main project
 
 
 
