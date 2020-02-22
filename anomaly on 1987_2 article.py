@@ -1,5 +1,3 @@
-#We did anomaly but decided not to add it to the project
-
 import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
