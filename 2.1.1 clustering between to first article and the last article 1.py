@@ -14,7 +14,7 @@ print(x)
 kmeans4 = KMeans(n_clusters=4)
 y_kmeans4 = kmeans4.fit_predict(x)
 print(y_kmeans4)
-kmeans4.cluster_centers_
+print(kmeans4.cluster_centers_)
 
 plt.scatter(x[:,0],x[:,1],c=y_kmeans4,cmap='rainbow')
 plt.scatter(kmeans4.cluster_centers_[:,0] ,kmeans4.cluster_centers_[:,1],color='black')
@@ -123,5 +123,9 @@ output:
 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 2
  0 0 0 0 0 0 0 2 0 2 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 2 0 0 0 1 0 0 0 0
  0 0 1 1 0 0 0 2 0 0 0 3 0 0 1 0 0 0 0 1 0 1 0 0 0 1]
+[[ 1.9         1.9375    ]
+ [ 2.36363636 12.09090909]
+ [ 9.71428571  4.85714286]
+ [ 3.         29.        ]]
 <matplotlib.collections.PathCollection at 0x1fc0a2c3e08>  
 *Graph is in the main file of the project
