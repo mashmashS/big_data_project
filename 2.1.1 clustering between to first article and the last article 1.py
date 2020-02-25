@@ -17,10 +17,10 @@ print(y_kmeans4)
 kmeans4.cluster_centers_
 
 plt.scatter(x[:,0],x[:,1],c=y_kmeans4,cmap='rainbow')
-
+plt.scatter(kmeans4.cluster_centers_[:,0] ,kmeans4.cluster_centers_[:,1],color='black')
 
 output:
-  [[ 1  1]
+[[ 1  1]
  [ 1  4]
  [ 4  3]
  [ 1  2]
@@ -120,8 +120,8 @@ output:
  [ 4  3]
  [ 2  2]
  [ 3  8]]
-[1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 2 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 2
- 1 1 1 1 1 1 1 2 1 2 1 1 1 0 1 1 1 1 1 1 2 1 1 1 1 1 1 0 2 1 1 1 0 1 1 1 1
- 1 1 0 0 1 1 1 2 1 1 1 3 1 1 0 1 1 1 1 0 1 0 1 1 1 0]
-<matplotlib.collections.PathCollection at 0x1fe1e5a53c8>
+[0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 2
+ 0 0 0 0 0 0 0 2 0 2 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 2 0 0 0 1 0 0 0 0
+ 0 0 1 1 0 0 0 2 0 0 0 3 0 0 1 0 0 0 0 1 0 1 0 0 0 1]
+<matplotlib.collections.PathCollection at 0x1fc0a2c3e08>  
 *Graph is in the main file of the project
